@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    /* float: left; */
+    display: inline-block;
+    margin: 0 70px 0 70px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(33, 34, 35);
+    font-size: 24px;
+
+}
+
+li a:hover {
+    background-color: rgb(51, 236, 224);
+}
+
+/* #home {
+    margin-top: 20px;
+} */
+
+#reykjavik, #oslo, #copenhagen, #stockholm, #helsinki {
+    scroll-margin-top: 100px;
+}
+
+h1 {
+    margin-left: 70px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 64px 0 0 70px;
+}
+
+.card-container {
+    text-align: center;
+    padding: 20px 0 16px 0;
+    background-color: beige;
+}
+
+img {
+    margin: 16px;
+}
+
+.side {
+    float: right;
+    margin: 0 64px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Young Serif', serif;
+}
+
+.form-container {
+    margin: 16px 0;
+}
+
+label {
+    display: block
+}
+
+.form {
+    background-color: beige;
+    max-height: 300px;
+    max-width: 920px;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 24px;
+    display: inline-block;
+}
+
+.form-radio {
+    display: inline-block;
+    padding: 0 24px;
+}
+
+hr {
+    margin: 64px 0 0 0;
+}
+
+footer {
+    text-align: center;
+}
+
